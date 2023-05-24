@@ -42,6 +42,10 @@ public class C02SystemOut {
 		System.out.println("HELLO WORLD");
 		System.out.println("HELLO WORLD");
 		
+		System.out.println("I Say \"HELLO\"");
+		
+		
+		
 		
 		
 		
