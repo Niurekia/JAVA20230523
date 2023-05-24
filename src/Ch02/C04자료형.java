@@ -62,30 +62,80 @@ public class C04자료형 {
 		//--------------------
 		//단일문자 char 2byte 정수
 		//--------------------
-		char ch1 = 'a';
-		System.out.println(ch1);
-		System.out.println((int)ch1); // 011000001
+//		char ch1 = 'a';
+//		System.out.println(ch1);
+//		System.out.println((int)ch1); // 011000001
+//	
+//		
+//		char ch2 = 98;
+//		System.out.println(ch2);
+//		System.out.println((int)ch2); // 011000010
+//		
+//		char ch3 = 'b'+1;
+//		System.out.println(ch3);
+//		System.out.println((int)ch3); // 011000011
+//		
+//		byte ch4 = 'c'+2;
+//		System.out.println((char)ch4);
+//		System.out.println(ch4); // 011000011
 		
-		char ch2 = 98;
-		System.out.println(ch2);
-		System.out.println((int)ch2); // 011000010
+//		char ch5  = 0xac00;
+//		char ch6 = 44032;
+//		
+//		System.out.println(ch5);
+//		System.out.println(ch6);
+//		System.out.println((char)(0b1010110000000000+1));
+		 
+//		char ch6 = 0xac00+1;
+//		System.out.printf("%c %c\n", ch5,ch6);
+//		
+//		// \\u :유니코드값 이스케이프문자
+//		System.out.printf("%c\n", '\uACa1');
 		
-		char ch3 = 'b'+1;
-		System.out.println(ch3);
-		System.out.println((int)ch3); // 011000011
+//		System.out.printf("TEST : %c\n", '\uabcd');
 		
-		byte ch4 = 'c'+2;
-		System.out.println((char)ch4);
-		System.out.println(ch4); // 011000011
 		
-		char ch5  = '가';
-		char ch6 = 0xac00+1;
-		System.out.printf("%c %c\n", ch5,ch6);
+//		char n = 10;
+//		System.out.printf("HELLO %c WORLD", n);
 		
-		// \\u :유니코드값 이스케이프문자
-		System.out.printf("%c\n", '\uAC80');
 		
-		System.out.printf("TEST : %c\n", '\ud7fb');
+		//--------------------
+		//문자열 : String (클래스자료형)
+		//--------------------
+		
+		//기본자료형(원시타입)
+//		byte n1;
+//		short n2;
+//		double n3;
+//		long n4;
+		
+		//클래스자료형
+		//클래스자료형으로 만든변수는 '참조변수'라고 하고
+		//참조변수는 데이터가 저장된 위치정보(메모리주소값)이 저장된다.
+//		int n1 = 10;
+//		byte n2 = 20;
+//		char n3 = 40;
+//		
+//		String name = "홍길동";
+//		String job = "프로그래머";
+//		System.out.println(name);
+//		System.out.println(job);
+
+		//--------------------
+		//boolean : 논리형(true/false 저장)
+		//--------------------
+		
+//		boolean flag = (10>11); 	// 참(긍정)
+//		if(flag) 
+//		{
+//			System.out.println("참인경우 실행");
+//		}
+//		else 
+//		{
+//			System.out.println("거짓인경우 실행");
+//		}
+		
+	
 		
 		
 		
