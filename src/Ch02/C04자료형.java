@@ -3,6 +3,7 @@ package Ch02;
 public class C04자료형 {
 
 	public static void main(String[] args) {
+		 
 		//--------------------
 		//정수 int - 4byte 정수 부호 o
 		//--------------------
