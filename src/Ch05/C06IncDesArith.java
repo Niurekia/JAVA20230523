@@ -16,7 +16,7 @@ public class C06IncDesArith {
 		System.out.printf("a = %d, b = %d, c = %d, d = %d ,e = %b\n", a, b, c, d , e);
 		
 		
-		
+
 		
 	}
 }
