@@ -82,15 +82,11 @@ public class ClientUI extends JFrame implements KeyListener{
 		}
 	}
 	
-
 	public static void main(String[] args) {
-		
 			Scanner sc = new Scanner(System.in);
 			System.out.print("닉네임 입력 : ");
 			String nick = sc.nextLine();
-			new ClientUI(nick);	
-			
-			
+			new ClientUI(nick);		
 	}
 
 	@Override
@@ -118,7 +114,6 @@ public class ClientUI extends JFrame implements KeyListener{
 	}
 	@Override
 	public void keyReleased(KeyEvent e) {
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub	
 	}
 }
