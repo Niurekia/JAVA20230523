@@ -22,7 +22,7 @@ public class C99참고기타반복처리문 {
 //		}
 
 		lists.forEach(tmp -> System.out.println(tmp) );
-		
+
 		Map<String,String> map = new HashMap();
 		map.put("k1", "V1");
 		map.put("k2", "V2");

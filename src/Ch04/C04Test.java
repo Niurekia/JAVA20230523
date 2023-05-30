@@ -7,9 +7,10 @@ public class C04Test {
 		
 		
 		Scanner  sc = new Scanner(System.in);
-		int n1 = sc.nextInt();
-		double n2 = sc.nextDouble();
-		String str = sc.nextLine();
+		int n1 = sc.nextInt();		// \n _
+		double n2 = sc.nextDouble(); // \n _
+		sc.nextLine();
+		String str = sc.nextLine();	// \n
 		
 		System.out.println("n1 : " + n1);
 		System.out.println("n2 : " + n2);

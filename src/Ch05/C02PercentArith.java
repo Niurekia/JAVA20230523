@@ -1,6 +1,7 @@
 package Ch05;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class C02PercentArith {
 
@@ -16,9 +17,9 @@ public class C02PercentArith {
 
 //		Scanner sc = new Scanner(System.in);
 //		int num1 = sc.nextInt();
-//		
-//		String result =  (num1%2==0)?"짝수입니다":"홀수입니다";
-//		System.out.println("결과 : " + result);
+		
+		//String result =  (num1%2==0)?"짝수입니다":"홀수입니다";
+		//System.out.println("결과 : " + result);
 
 		// 02 배수 구하기
 
@@ -41,7 +42,7 @@ public class C02PercentArith {
 		 */
 
 		// 난수생성
-		// 01 Random rnd = new Random();
+		Random rnd = new Random();
 
 //		Random rnd = new Random();
 //		while (true) {
@@ -51,7 +52,7 @@ public class C02PercentArith {
 
 		// 02 Math.random();
 //		while (true) {
-//			System.out.println( ((int)(Math.random()*100))%16);
+//			System.out.println((int)(Math.random()*100)%16);
 //			Thread.sleep(500);
 //		}
 
@@ -76,6 +77,8 @@ public class C02PercentArith {
 //		저장
 //		int reverse = 4321;
 //		출력 : 4321
+		
+		
 		
 		
 		
