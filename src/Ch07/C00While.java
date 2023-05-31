@@ -195,19 +195,62 @@ public class C00While {
 //			dan++;
 //		}	
 		
-		int dan=9;
-		int i=9;
+//		int dan=9;
+//		int i=9;
+//		
+//		while(dan>=2)
+//		{
+//			i=9;
+//			while(i>=1) {
+//				System.out.printf("%d x % d = %d\n", dan,i,dan*i);
+//				i--;
+//			}
+//			System.out.println();
+//			dan--;
+//		}
 		
-		while(dan>=2)
-		{
-			i=9;
-			while(i>=1) {
-				System.out.printf("%d x % d = %d\n", dan,i,dan*i);
-				i--;
-			}
-			System.out.println();
-			dan--;
-		}
+		//*****
+		//*****
+		//*****
+		//*****
+		
+		//*
+		//**
+		//***
+		//****
+		//*****
+		
+		//*****
+		//****
+		//***
+		//**	
+		//*
+		
+		
+		//*
+		//**
+		//***
+		//****
+		//*****
+		//****
+		//***
+		//**	
+		//*	
+		
+		
+		//	*
+		// ***
+		//*****
+		// ***
+		//  *
+		
+		
+		
+		
+		
+		
+		
+		
 		
 
 	}
