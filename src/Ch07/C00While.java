@@ -428,32 +428,39 @@ public class C00While {
 //		}
 		
 
-		Scanner sc = new Scanner(System.in);
-		int h = sc.nextInt();
-		int i=0;
-		int j=0;
-		while(i<9) {
-			
-			if(i<5) {
-				j=0;
-				while(j<=i)
-				{
-					System.out.print("*");
-					j++;
-				}
-				
-			}else {
-				j=0;
-				while(j<=8-i)
-				{
-					System.out.print("*");
-					j++;
-				}
-			}
-			
-			System.out.println();
-			i++;
-		}
+//		Scanner sc = new Scanner(System.in);
+//		int h;
+//		
+//		while(true) {
+//			h = sc.nextInt();
+//			if(h%2==1)
+//				break;
+//		}
+//		
+//		int i=0;
+//		int j=0;
+//		while(i<h) {
+//			
+//			if(i<(h/2)+1) {
+//				j=0;
+//				while(j<=i)
+//				{
+//					System.out.print("*");
+//					j++;
+//				}
+//				
+//			}else {
+//				j=0;
+//				while(j<=(h-1)-i)
+//				{
+//					System.out.print("*");
+//					j++;
+//				}
+//			}
+//			
+//			System.out.println();
+//			i++;
+//		}
 		
 		
 		
