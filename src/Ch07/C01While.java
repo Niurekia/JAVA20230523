@@ -14,7 +14,7 @@ public class C01While {
 //			System.out.println("HELLO WORLD");
 //			i++; //3 탈출 연산식
 //		}
-		s
+	
 		//1 부터 10까지 합 
 		
 //		int i=1; 		 
