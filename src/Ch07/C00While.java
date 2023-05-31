@@ -507,11 +507,11 @@ public class C00While {
 		int i=0;
 		int j=0;
 		int k=0;
-		while(i<4)
+		while(i<h)
 		{
 			//공백
 			j=0;
-			while(j<=2-i) {
+			while(j<=(h-2)-i) {
 				System.out.print(" ");
 				j++;
 			}
