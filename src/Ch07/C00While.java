@@ -480,6 +480,30 @@ public class C00While {
 //		i<4		j<=2-i		k<=2*i
 		
 		
+//		int i=0;
+//		int j=0;
+//		int k=0;
+//		while(i<4)
+//		{
+//			//공백
+//			j=0;
+//			while(j<=2-i) {
+//				System.out.print(" ");
+//				j++;
+//			}
+//			//별
+//			k=0;
+//			while(k<=2*i) {
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();
+//			i++;
+//		}
+
+
+		Scanner sc = new Scanner(System.in);
+		int h = sc.nextInt();
 		int i=0;
 		int j=0;
 		int k=0;
@@ -500,8 +524,7 @@ public class C00While {
 			System.out.println();
 			i++;
 		}
-
-
+		
 
 		//*******
 		// *****	
