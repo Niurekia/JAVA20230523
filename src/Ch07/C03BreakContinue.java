@@ -26,28 +26,45 @@ public class C03BreakContinue {
 		
 		//flag를 이용한 전체 반복문 탈출
 		//
-		int dan =2;
-		int i = 1;
-		boolean isExit=false;
-		while(dan<=9)
-		{
-			i=1;
-			while(i<=9)
-			{
-				System.out.printf("%d x %d = %d\n",dan,i,dan*i);
-				
-				if(dan==7&&i==7) {
-					isExit=true;
-					break;
-				}
-				i++;
-			}	
-			if(isExit==true)
-				break;
-			System.out.println();
-			dan++;
-		}
-				
+//		int dan =2;
+//		int i = 1;
+//		boolean isExit=false;
+//		while(dan<=9)
+//		{
+//			i=1;
+//			while(i<=9)
+//			{
+//				System.out.printf("%d x %d = %d\n",dan,i,dan*i);		
+//				if(dan==7&&i==7) {
+//					isExit=true;
+//					break;
+//				}
+//				i++;
+//			}	
+//			if(isExit==true)
+//				break;
+//			System.out.println();
+//			dan++;
+//		}
+		
+//		int dan =2;
+//		int i = 1;
+//		Exit:
+//		while(dan<=9)
+//		{
+//			i=1;
+//			while(i<=9)
+//			{
+//				System.out.printf("%d x %d = %d\n",dan,i,dan*i);		
+//				if(dan==7&&i==7) {
+//					break Exit;
+//				}
+//				i++;
+//			}	
+//			System.out.println();
+//			dan++;
+//		}
+		
 		
 		
 		
@@ -59,9 +76,7 @@ public class C03BreakContinue {
 //		int sum=0;
 //		while(i<=10)
 //		{
-//			if(i%3==0) {
-//
-//				
+//			if(i%3==0) {	
 //				i++;
 //				continue; //근접한 반복문의 조건식으로 돌아감
 //			}
