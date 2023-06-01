@@ -3,22 +3,22 @@ package Ch06;
 public class C04Switch {
 
 	public static void main(String[] args) {
-		int ranking = 1;
+		int ranking = 2;
 		char medalColor;
 		switch(ranking)
 		{
 		case 1:
 			medalColor = 'G';
 			System.out.println("메달색상 : G");
-			//break;
+			break;
 		case 2:
 			medalColor = 'S';
 			System.out.println("메달색상 : S");
-			//break;
+			break;
 		case 3:
 			medalColor = 'B';
 			System.out.println("메달색상 : B");
-			//break;
+			break;
 		default:
 			medalColor = 'C';
 			System.out.println("메달색상 : C");

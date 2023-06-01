@@ -43,21 +43,21 @@ public class C04For {
 		//전체 구구단
 		//기타 별찍기
 		
-		Scanner sc = new Scanner(System.in);
-		int h = sc.nextInt();
-		int i=0;
-		int j=0;
-		
-		while(i<h) {
-			j=0;
-			while(j<=(h-1)-i) {	
-				System.out.print("*");
-				j++;
-			}
-
-			System.out.println();
-			i++;
-		}
+//		Scanner sc = new Scanner(System.in);
+//		int h = sc.nextInt();
+//		int i=0;
+//		int j=0;
+//		
+//		while(i<h) {
+//			j=0;
+//			while(j<=(h-1)-i) {	
+//				System.out.print("*");
+//				j++;
+//			}
+//
+//			System.out.println();
+//			i++;
+//		}
 		
 		
 		

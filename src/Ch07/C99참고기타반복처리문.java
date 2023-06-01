@@ -21,7 +21,7 @@ public class C99참고기타반복처리문 {
 //			System.out.println(str);
 //		}
 
-		lists.forEach(tmp -> System.out.println(tmp) );
+		lists.stream().forEach(	tmp -> System.out.println(tmp) );
 
 		Map<String,String> map = new HashMap();
 		map.put("k1", "V1");
