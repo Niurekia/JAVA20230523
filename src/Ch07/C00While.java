@@ -568,6 +568,7 @@ public class C00While {
 //		}
 
 		
+
 		
 		//   *
 		//  ***
@@ -576,11 +577,112 @@ public class C00While {
 		// *****	
 		//  ***
 		//   *
+
+//		-------------------------------------
+//		i(행증가)		j(공백)		k(별)
+//		-------------------------------------
+//		0		0-2		0-0
+//		1		0-1		0-2
+//		2		0-0		0-4
+//		3		x		0-6
+//		--------------------------------------
+//				j=0		k=0
+//				j++		k++
+//				j<=2-i		k<=2*i
+//
+//		4		0-0		0-4
+//		5		0-1		0-2
+//		6		0-2		0-0
+//		--------------------------------------
+//				j=0		k=0
+//				j++		k++
+//				j<=i-4	k<=6*2-2*i
+				
 		
 		
+//		int i=0; //행
+//		int j=0; //공백
+//		int k=0; //별
+//		
+//		while(i<7)
+//		{
+//			if(i<4)
+//			{
+//				//공백
+//				j=0;
+//				while(j<=2-i) {
+//					System.out.print(" ");
+//					j++;
+//				}
+//				//별
+//				k=0;
+//				while(k<=2*i) {
+//					System.out.print("*");
+//					k++;
+//				}
+//			}
+//			else
+//			{
+//				//공백
+//				j=0;
+//				while(j<=i-4) {
+//					System.out.print(" ");
+//					j++;
+//				}
+//				//별
+//				k=0;
+//				while(k<=6*2-2*i) {
+//					System.out.print("*");
+//					k++;
+//				}
+//			}
+//			System.out.println();
+//			i++;
+//		}
+
 		
 		
-		
+		Scanner sc = new Scanner(System.in);
+		int h = sc.nextInt();
+		int i=0; //행
+		int j=0; //공백
+		int k=0; //별
+	
+		while(i<7)
+		{
+			if(i<4)
+			{
+				//공백
+				j=0;
+				while(j<=2-i) {
+					System.out.print(" ");
+					j++;
+				}
+				//별
+				k=0;
+				while(k<=2*i) {
+					System.out.print("*");
+					k++;
+				}
+			}
+			else
+			{
+				//공백
+				j=0;
+				while(j<=i-4) {
+					System.out.print(" ");
+					j++;
+				}
+				//별
+				k=0;
+				while(k<=6*2-2*i) {
+					System.out.print("*");
+					k++;
+				}
+			}
+			System.out.println();
+			i++;
+		}
 		
 		
 		
