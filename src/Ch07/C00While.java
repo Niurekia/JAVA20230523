@@ -642,47 +642,47 @@ public class C00While {
 
 		
 		
-		Scanner sc = new Scanner(System.in);
-		int h = sc.nextInt();
-		int i=0; //행
-		int j=0; //공백
-		int k=0; //별
-	
-		while(i<7)
-		{
-			if(i<4)
-			{
-				//공백
-				j=0;
-				while(j<=2-i) {
-					System.out.print(" ");
-					j++;
-				}
-				//별
-				k=0;
-				while(k<=2*i) {
-					System.out.print("*");
-					k++;
-				}
-			}
-			else
-			{
-				//공백
-				j=0;
-				while(j<=i-4) {
-					System.out.print(" ");
-					j++;
-				}
-				//별
-				k=0;
-				while(k<=6*2-2*i) {
-					System.out.print("*");
-					k++;
-				}
-			}
-			System.out.println();
-			i++;
-		}
+//		Scanner sc = new Scanner(System.in);
+//		int h = sc.nextInt();
+//		int i=0; //행
+//		int j=0; //공백
+//		int k=0; //별
+//	
+//		while(i<h)
+//		{
+//			if(i<h/2+1)
+//			{
+//				//공백
+//				j=0;
+//				while(j<=(h/2-1)-i) {
+//					System.out.print(" ");
+//					j++;
+//				}
+//				//별
+//				k=0;
+//				while(k<=2*i) {
+//					System.out.print("*");
+//					k++;
+//				}
+//			}
+//			else
+//			{
+//				//공백
+//				j=0;
+//				while(j<=i-(h/2+1)) {
+//					System.out.print(" ");
+//					j++;
+//				}
+//				//별
+//				k=0;
+//				while(k<=(h-1)*2-2*i) {
+//					System.out.print("*");
+//					k++;
+//				}
+//			}
+//			System.out.println();
+//			i++;
+//		}
 		
 		
 		
